@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+  article-development:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ../:/workspace:cached
+    tty: true
+    # networks:
+    #   - article-development-network
+# networks:
+#   article-development-network:
+#     external: true
