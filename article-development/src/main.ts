@@ -1,6 +1,5 @@
 import { createApp } from "vue";
 import App from "@/App.vue";
-import "@/assets/main.css";
 
 // Router
 import router from "@/router";
@@ -22,14 +21,11 @@ const mainTheme: ThemeDefinition = {
   dark: false,
   colors: {
     background: "#FFFFFF",
-    surface: "#FFFFFF",
-    primary: "#E85D3A",
-    secondary: "#bc867e",
-    success: "#F7B3A2", //pink
+    primary: "#208060",
+    secondary: "#D1E2CA",
+    info: "#7a7a7a",
     accent: "#333",
-    info: "#333",
     warning: "#ff0000",
-    error: "#ff0000",
   },
 };
 
